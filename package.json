@@ -5,7 +5,7 @@
   "scripts": {
     "start:module": "node main.mjs",
     "start:commonjs": "node main.cjs",
-    "start:esm": "node -r esm main.cjs"
+    "start:esm": "node -r esm main.mjs"
   },
   "keywords": [],
   "author": "",

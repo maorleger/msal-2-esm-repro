@@ -12,5 +12,5 @@ To run this:
 npm install
 npm run start:module # runs main.mjs using native esm, prints "ok" and MSAL's version
 npm run start:commonjs # runs main.cjs using common js, prints "ok" and MSAL's version
-npm run start:esm # runs main.cjs using the esm package, throws Error: Cannot find module '@azure/msal-node'
+npm run start:esm # runs main.mjs using the esm package, throws Error: Cannot find module '@azure/msal-node'
 ```
